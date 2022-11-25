@@ -1,7 +1,5 @@
 org 100h
 
-jmp loop
-
 loop:
 mov AH, 00h  	;
 int 16h	;get key from the user
