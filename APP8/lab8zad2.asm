@@ -95,6 +95,8 @@ segment .text
 	print_msg:
 		pusha
 		mov AH, 09h
+		mov DX, text
+		int 21h
 		popa
 		ret
 	
